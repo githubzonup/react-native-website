@@ -20,6 +20,7 @@ const App = () => {
       <Picker
         selectedValue={selectedValue}
         style={{ height: 50, width: 150 }}
+        style={{ height: 50, width: 150 }}
         onValueChange={(itemValue, itemIndex) => setSelectedValue(itemValue)}
       >
         <Picker.Item label="Java" value="java" />
